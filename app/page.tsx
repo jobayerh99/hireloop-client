@@ -1,7 +1,9 @@
+import { HeroSection } from "@/components/hero-section";
+
 export default function Home() {
   return (
-    <div className="flex flex-1 flex-col items-center justify-center bg-page font-sans">
-      {/* Home page content */}
-    </div>
+    <main className="flex flex-1 flex-col bg-page">
+      <HeroSection />
+    </main>
   );
 }
